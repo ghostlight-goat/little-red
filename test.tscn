@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bhat3jxbx1pjq"]
+
+[ext_resource type="PackedScene" uid="uid://cifybsoucayfa" path="res://player.tscn" id="1_8uh7m"]
+[ext_resource type="PackedScene" uid="uid://cus1x6eeh51r1" path="res://grass_platform.tscn" id="2_6uqi0"]
+[ext_resource type="PackedScene" uid="uid://btso6d55a4fja" path="res://ground.tscn" id="3_6uqi0"]
+[ext_resource type="PackedScene" uid="uid://c51dctiylgumm" path="res://coin.tscn" id="4_ppyta"]
+
+[node name="Node" type="Node" unique_id=350327047]
+
+[node name="Ground" parent="." unique_id=933885641 instance=ExtResource("3_6uqi0")]
+position = Vector2(4, 1010)
+
+[node name="GrassPlatform" parent="." unique_id=1147209868 instance=ExtResource("2_6uqi0")]
+position = Vector2(475, 921)
+
+[node name="GrassPlatform2" parent="." unique_id=637986173 instance=ExtResource("2_6uqi0")]
+position = Vector2(877, 773)
+
+[node name="GrassPlatform3" parent="." unique_id=969617037 instance=ExtResource("2_6uqi0")]
+position = Vector2(1340, 600)
+
+[node name="Player" parent="." unique_id=1471351657 instance=ExtResource("1_8uh7m")]
+position = Vector2(66, 916)
+
+[node name="Coin" parent="." unique_id=39229831 instance=ExtResource("4_ppyta")]
+position = Vector2(1321, 413)

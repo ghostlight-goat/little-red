@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cifybsoucayfa"]
 
+[ext_resource type="Script" uid="uid://dmvcd3i5lm2bt" path="res://player.gd" id="1_hqtel"]
 [ext_resource type="Texture2D" uid="uid://dvmbxcu5i7ko5" path="res://Spritesheets/spritesheet_idle.png" id="1_i3pqv"]
 [ext_resource type="Texture2D" uid="uid://eekt603b366d" path="res://Spritesheets/spritesheet_jump.png" id="2_hqtel"]
 [ext_resource type="Texture2D" uid="uid://dmxcijjichwug" path="res://Spritesheets/spritesheet_run.png" id="3_sweqy"]
@@ -223,8 +224,8 @@ radius = 43.0
 height = 222.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1471351657]
-position = Vector2(100, 400)
 scale = Vector2(0.75, 0.75)
+script = ExtResource("1_hqtel")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=346576203]
