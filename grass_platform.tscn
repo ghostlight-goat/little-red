@@ -2,14 +2,17 @@
 
 [ext_resource type="Texture2D" uid="uid://duxspsqpmx0tn" path="res://Pads/Pad_1_3.png" id="1_h4alt"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4xfgg"]
-size = Vector2(383, 53)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h4alt"]
+radius = 15.5
+height = 385.0
 
 [node name="GrassPlatform" type="StaticBody2D" unique_id=1147209868]
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=688902570]
 texture = ExtResource("1_h4alt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=862654729]
-position = Vector2(0.5, -6.5)
-shape = SubResource("RectangleShape2D_4xfgg")
+position = Vector2(0.5, -25)
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_h4alt")

@@ -7,6 +7,7 @@
 radius = 17.029387
 
 [node name="Coin" type="Area2D" unique_id=39229831]
+position = Vector2(158, 135)
 script = ExtResource("1_0t63x")
 metadata/_edit_group_ = true
 

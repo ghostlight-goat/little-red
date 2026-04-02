@@ -14,13 +14,13 @@ position = Vector2(4, 1010)
 position = Vector2(475, 921)
 
 [node name="GrassPlatform2" parent="." unique_id=637986173 instance=ExtResource("2_6uqi0")]
-position = Vector2(877, 773)
+position = Vector2(846, 725)
 
 [node name="GrassPlatform3" parent="." unique_id=969617037 instance=ExtResource("2_6uqi0")]
-position = Vector2(1340, 600)
+position = Vector2(1292, 547)
 
 [node name="Player" parent="." unique_id=1471351657 instance=ExtResource("1_8uh7m")]
 position = Vector2(66, 916)
 
 [node name="Coin" parent="." unique_id=39229831 instance=ExtResource("4_ppyta")]
-position = Vector2(1321, 413)
+position = Vector2(1286, 381)
